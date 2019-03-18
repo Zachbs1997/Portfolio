@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Drawing - Zachary Brooks - Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="styles/index.css"/>
+		<style>
+			html, body{
+				overflow-y: hidden;
+			}
+		</style>
+	</head>
+	<div id="header">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="#" class="active">Chalkboard</a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<div style="line-height: 2.75rem; color: #ea9c28; font-family: Roboto;"> <span style="margin-right: 0.5%;">Pick Color: </span><input class="jscolor" style="position: absolute; top: 3.5rem;" type="text" id="colorPicker" value="000000" /> </div>
+		<canvas id="canvas"></canvas>
+	</div>
+	<script src="scripts/jscolor.js"></script>
+	<script src="scripts/drawing.js"></script>
+</html>
